@@ -1,4 +1,4 @@
-# 🎓 EduAlerta — Analizador de Deserción Académica
+# 🎓 Analizador de Deserción Académica
 
 ## Industria
 **Educación Superior**
