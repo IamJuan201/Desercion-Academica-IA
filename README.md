@@ -51,7 +51,7 @@ Luego abre tu navegador en: **http://localhost:5173**
 ---
 
 ## ¿Para qué sirve Vite?
-Vite es un servidor local que te permite ver tu aplicación en el navegador mientras la desarrollas. Es como un "puente" entre tu código y el navegador. El reto lo pide como requisito técnico.
+Vite es un servidor local que te permite ver tu aplicación en el navegador mientras la desarrollas. Es como un "puente" entre tu código y el navegador. 
 
 ## Estructura del proyecto
 ```
