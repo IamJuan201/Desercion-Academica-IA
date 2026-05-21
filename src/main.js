@@ -77,18 +77,28 @@ DATOS DEL ESTUDIANTE:
 - Estado emocional: ${emocional || 'No especificado'}
 - Comentario: ${comentario || 'Ninguno'}
 
-Responde en español con este formato exacto:
+Responde ÚNICAMENTE en español y siguiendo EXACTAMENTE esta estructura.
 
-NIVEL DE RIESGO: [BAJO / MEDIO / ALTO / CRÍTICO]
+Ejemplo de respuesta:
+
+NIVEL DE RIESGO: ALTO
 
 FACTORES DE RIESGO:
-- (lista los principales problemas detectados)
+- Bajo promedio académico
+- Alta cantidad de inasistencias
+- Estado emocional negativo
 
 RECOMENDACIONES:
-- (lista acciones concretas para el tutor)
+- Asignar acompañamiento psicológico
+- Realizar tutorías académicas semanales
+- Contactar bienestar universitario
 
 SEGUIMIENTO:
-(indica cada cuánto tiempo hacer seguimiento y cómo)`
+Realizar seguimiento cada 15 días mediante reuniones y revisión de asistencia.
+
+NO escribas explicaciones adicionales.
+NO inventes encabezados.
+NO cambies los títulos.`
 
   // Mostrar la sección de resultado y el spinner
   const seccionResultado = document.getElementById('seccion-resultado')
@@ -114,7 +124,7 @@ SEGUIMIENTO:
       body: JSON.stringify({
         model: MODELO,
         prompt: prompt,
-        stream: false   // false = espera la respuesta completa
+        stream: false,   // false = espera la respuesta completa
       })
     })
 
