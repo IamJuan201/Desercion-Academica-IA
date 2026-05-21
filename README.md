@@ -69,6 +69,8 @@ DESERCION-ACADEMICA-IA/
 
 ├── package.json      ← Lista de dependencias
 
+├── package.json
+
 ├── src/
 
 │   ├── main.js       ← Toda la lógica: leer formulario, llamar IA, mostrar resultado
