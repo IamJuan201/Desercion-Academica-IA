@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EduAlerta — Deserción Académica</title>
+  <title>Deserción Académica</title>
   <link rel="stylesheet" href="src/style.css" />
 </head>
 <body>
@@ -12,9 +12,8 @@
 
     <!-- ENCABEZADO -->
     <header>
-      <h1>🎓 EduAlerta</h1>
-      <p>Analizador de riesgo de deserción académica con IA local</p>
-      <div id="estado-modelo" class="estado">⏳ Verificando Ollama...</div>
+      <h1>Analizador de desercion académica</h1>
+      <div id="estado-modelo" class="estado">Verificando Ollama...</div>
     </header>
 
     <!-- FORMULARIO -->
@@ -88,13 +87,13 @@
       </div>
 
       <button id="btn-analizar" onclick="analizarEstudiante()">
-        🔍 Analizar con IA
+        Analizar con IA
       </button>
     </section>
 
     <!-- RESULTADO -->
     <section class="tarjeta" id="seccion-resultado" style="display:none">
-      <h2>📋 Resultado del Análisis</h2>
+      <h2>Resultado del Análisis: </h2>
 
       <div id="cargando" style="display:none" class="cargando">
         <div class="spinner"></div>
@@ -104,15 +103,15 @@
       <div id="resultado-texto" class="resultado-texto"></div>
 
       <div id="acciones" style="display:none" class="acciones">
-        <button onclick="guardarHistorial()" class="btn-secundario">💾 Guardar</button>
-        <button onclick="nuevoAnalisis()" class="btn-ghost">↩ Nuevo análisis</button>
+        <button onclick="guardarHistorial()" class="btn-secundario">Guardar</button>
+        <button onclick="nuevoAnalisis()" class="btn-ghost">Nuevo análisis</button>
       </div>
     </section>
 
     <!-- HISTORIAL -->
     <section class="tarjeta" id="seccion-historial" style="display:none">
       <div class="historial-header">
-        <h2>📁 Historial guardado</h2>
+        <h2>Historial guardado</h2>
         <button onclick="limpiarHistorial()" class="btn-ghost pequeño">Limpiar</button>
       </div>
       <div id="lista-historial"></div>
