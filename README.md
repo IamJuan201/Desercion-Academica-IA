@@ -1,5 +1,7 @@
 # Analizador de Deserción Académica
 
+## Link del repositorio
+### https://github.com/IamJuan201/Desercion-Academica-IA.git
 
 ## Industria
 **Educación Superior**
@@ -76,3 +78,8 @@ DESERCION-ACADEMICA-IA/
 └── README.md         ← Este archivo
 
 ```
+
+## Autores
+### Juan Rangel
+### Yaila Ustate
+### David Moran
